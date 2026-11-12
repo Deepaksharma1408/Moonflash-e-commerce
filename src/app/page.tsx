@@ -156,7 +156,7 @@ export default function HomePage() {
                 {/* Mode: Tall Ship Maritime Oil Painting */}
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?w=1200&q=80"
+                  src="/images/tall-ship-hero.jpg"
                   alt="Tall Ship Handcrafted Canvas"
                   className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ease-out ${
                     heroMode === 'art' ? 'opacity-100 scale-100' : 'opacity-0 scale-105'
@@ -166,7 +166,7 @@ export default function HomePage() {
                 {/* Mode: Raw Original Camera Roll Photo */}
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=1200&q=80"
+                  src="/images/dog-raw-photo.jpg"
                   alt="Original raw camera photo"
                   className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ease-out ${
                     heroMode === 'photo' ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
@@ -179,7 +179,7 @@ export default function HomePage() {
                 <button
                   onClick={() =>
                     openRoomVisualizer({
-                      imageUrl: 'https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?w=1200&q=80',
+                      imageUrl: '/images/tall-ship-hero.jpg',
                       title: 'Maritime Tall Ship Canvas',
                       frameId: 'natural-oak',
                       frameName: 'Natural European Oak',
@@ -222,7 +222,7 @@ export default function HomePage() {
                 <div className="relative h-12 w-12 sm:h-14 sm:w-14 flex-shrink-0 overflow-hidden rounded-xl border-2 border-white shadow-md">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=200&q=80"
+                    src="/images/dog-raw-photo.jpg"
                     alt="Raw customer photo"
                     className="h-full w-full object-cover"
                   />
